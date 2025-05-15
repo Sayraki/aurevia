@@ -1,2 +1,106 @@
-# aurevia
-투자
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Aurevia Capital - 투자 홈페이지</title>
+    <!-- 구글 폰트 Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #121212;
+            color: #f4f4f4;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #1f1f1f;
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-weight: 600;
+            letter-spacing: 2px;
+            color: #f7b500;
+        }
+
+        nav {
+            margin-top: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 1.2rem;
+            font-weight: 500;
+            letter-spacing: 1px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #f7b500;
+        }
+
+        section {
+            padding: 80px 20px;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            color: #f7b500;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            color: #dcdcdc;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        .intro, .investment-opportunity, .market-analysis, .financial-info, .testimonials {
+            margin-bottom: 60px;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #f7b500;
+            color: #121212;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-btn:hover {
+            background-color: #f4a300;
+        }
+
+        footer {
+            background-color: #1f1f1f;
+            color: #fff;
+            padding: 30px 0;
+            text-align: center;
+            margin-top: 60px;
+            box-shadow: 0 -
+
